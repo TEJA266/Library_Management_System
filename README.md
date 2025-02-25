@@ -48,19 +48,26 @@ Ensure you have the following installed:
    cd library-management-system
    
 2. **Create a Virtual Environment Create and activate a virtual environment to manage project dependencies.**
-python -m venv venv
-source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+   ```bash
+    python -m venv venv
+    source venv/bin/activate
+   ```
 
 3. ** Apply Database Migrations Set up the database schema using Django migrations.**
-python manage.py makemigrations
-python manage.py migrate
+   ```bash
+   python manage.py makemigrations
+   python manage.py migrate
+   ```
 
-4.**Create a Superuser (Admin Account) Create an administrator account to manage the system.**
-python manage.py createsuperuser
+4. **Create a Superuser (Admin Account) Create an administrator account to manage the system.**
+   ```bash
+   python manage.py createsuperuser
+   ```
 
 5. **Run the Development Server Start the Django development server to run the application locally.**
-
-python manage.py runserver
+   ```bash
+   python manage.py runserver
+   ```
 
 #### Access the Application
 
