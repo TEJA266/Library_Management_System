@@ -53,7 +53,7 @@ Ensure you have the following installed:
     source venv/bin/activate
    ```
 
-3. ** Apply Database Migrations Set up the database schema using Django migrations.**
+3. **Apply Database Migrations Set up the database schema using Django migrations.**
    ```bash
    python manage.py makemigrations
    python manage.py migrate
